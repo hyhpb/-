@@ -1,10 +1,11 @@
-import time,sys,os
+import time,os
 from random import*
-def pr(a):
+def pr(a, enter: bool = False):
     for i in a:
-        sys.stdout.write(i)
-        sys.stdout.flush()
+        print(i,end="")
         time.sleep(0.08)
+    if enter:
+        print()
 pr('请输入猜数字的最小范围：')
 small = int(input())
 pr('请输入猜数字的最大范围：')
@@ -16,18 +17,18 @@ while True:
     gnum = int(input())
     if gnum == num:
         t += 1
-        pr('猜对了，你猜了'+str(t)+'次')
+        pr('猜对了，你猜了'+str(t)+'次', True)
         break
     if gnum < num:
         t += 1
-        pr('猜小了')
+        pr('猜小了', True)
         time.sleep(1)
         os.system('cls')
     if gnum > num:
         t +=1
-        pr('猜大了')
+        pr('猜大了', True)
         time.sleep(1)
         os.system('cls')
 #2022/11/13
-#by hyh
-#版本号：1.5
+#by hyh,ikun-lychee
+#版本号：1.6
