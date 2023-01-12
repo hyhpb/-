@@ -1,4 +1,5 @@
 # 猜数字游戏
+![size](https://img.shields.io/github/repo-size/ikun-lychee/Number-guessing-game)
 ## 玩法
 运行之后输入猜数字的最大值和最小值，然后输入猜的数字直到猜对
 
