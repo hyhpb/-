@@ -5,20 +5,22 @@
 ----------
 
 ## 日志：
-```
+
 Oct 23, 2022: 新建仓库
 
-            : 三份提交
+: 三份提交
             
-                      : 初始化提交
+: 初始化提交
                       
-                      : 新建 猜数字游戏.py
+: 新建 猜数字游戏.py
                       
-                      : 更新 README文件
+: 更新 README文件
                       
 Nov 13, 2022: 更新 猜数字游戏.py
 
 Nov 28, 2022: ikun-lychee 创建了分支
-```
+
+Jan 7, 2023: ikun-lychee 创建 [guess-ikun_lychee.py](guess-ikun_lychee.py)
+
 
 。。。
